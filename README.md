@@ -10,7 +10,7 @@ This repository contains the official PyTorch implementation of the paper **"Ano
 
 ## 🌟 Motivation
 
-![Motivation](moti.jpg)
+<img src="moti.jpg" width="500"/>
 *Figure 1: Comparison of Learning Paradigms. (a) Standard Deep Learning acts as a "black-box" operator. (b) Standard PINNs face the ill-posedness problem where multiple latent physical states can yield the same observation, leading to signal aliasing. (c) AD-PINI (Ours) achieves a physically unique and interpretable solution through anomaly decoupling and explicit discrete physical constraints.*
 
 Existing physics-informed approaches often embed governing equations directly in the raw variable space. This strategy frequently overlooks the ill-posed nature of the inverse problem, resulting in non-unique solutions and signal aliasing between physical components. AD-PINI introduces an **Anomaly-Decoupled** strategy that explicitly models the evolution increments ($\Delta$) of physical variables. This ensures physical consistency and significantly improves robustness for long-term forecasting and extreme climate events.
