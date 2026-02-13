@@ -1,0 +1,23 @@
+{
+  "processing_date": "2026-01-24T22:39:19.961606",
+  "data_shape": "(371, 713, 1440)",
+  "time_range": [
+    "1993-01-01T00:00:00.000000000",
+    "2023-11-01T00:00:00.000000000"
+  ],
+  "spatial_coverage": {
+    "lat_range": [
+      -88.125,
+      89.875
+    ],
+    "lon_range": [
+      -179.875,
+      179.875
+    ]
+  },
+  "climatology_params": {
+    "order": 2,
+    "harmonic_terms": 4,
+    "train_split": 0.8
+  }
+}
