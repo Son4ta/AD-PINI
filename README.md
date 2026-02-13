@@ -19,7 +19,7 @@ Existing physics-informed approaches often embed governing equations directly in
 
 ## 🚀 Methodology
 
-![Architecture](main.pdf)
+![Architecture](main.jpg)
 *Figure 2: Schematic Architecture of AD-PINI. The model consists of three core components: (1) Anomaly-Decoupled Neural Interpreter, (2) Discrete PDEs Prediction Network, and (3) Residual Correction Network.*
 
 ### Core Components (see `models/v4/carbon_net_v4.py`)
